@@ -1,4 +1,4 @@
-module rpcdemo
+module github.com/178441367/gozerodemo1/rpcdemo
 
 go 1.21.4
 

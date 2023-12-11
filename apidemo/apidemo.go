@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"apidemo/internal/config"
-	"apidemo/internal/handler"
-	"apidemo/internal/svc"
+	"github.com/178441367/gozerodemo1/apidemo/internal/config"
+	"github.com/178441367/gozerodemo1/apidemo/internal/handler"
+	"github.com/178441367/gozerodemo1/apidemo/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"
