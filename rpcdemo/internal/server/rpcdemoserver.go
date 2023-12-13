@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"rpcdemo/internal/logic"
-	"rpcdemo/internal/svc"
-	"rpcdemo/rpcdemo"
+	"github.com/178441367/gozerodemo1/rpcdemo/internal/logic"
+	"github.com/178441367/gozerodemo1/rpcdemo/internal/svc"
+	"github.com/178441367/gozerodemo1/rpcdemo/rpcdemo"
 )
 
 type RpcdemoServer struct {
