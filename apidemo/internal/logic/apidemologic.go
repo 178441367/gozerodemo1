@@ -31,7 +31,7 @@ func (l *ApidemoLogic) Apidemo(req *types.Request) (resp *types.Response, err er
 		return nil, err
 	}
 	resp = &types.Response{
-		Message: res.Pong,
+		Message: res.Pong + res.Message,
 	}
 	return
 }
