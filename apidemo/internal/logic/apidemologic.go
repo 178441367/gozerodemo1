@@ -2,7 +2,7 @@ package logic
 
 import (
 	"context"
-	"github.com/178441367/gozerodemo1/rpcdemo/pb/rpcdemo"
+	"github.com/178441367/gozerodemo1/rpcdemo/rpcdemo"
 
 	"apidemo/internal/svc"
 	"apidemo/internal/types"
