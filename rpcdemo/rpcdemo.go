@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"rpcdemo/pb/rpcdemo"
+	"rpcdemo/rpcdemo"
 
 	"rpcdemo/internal/config"
 	"rpcdemo/internal/server"

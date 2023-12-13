@@ -6,7 +6,7 @@ package rpcdemoclient
 import (
 	"context"
 
-	"rpcdemo/pb/rpcdemo"
+	"rpcdemo/rpcdemo"
 
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"

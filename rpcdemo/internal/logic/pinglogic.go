@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"rpcdemo/internal/svc"
-	"rpcdemo/pb/rpcdemo"
+	"rpcdemo/rpcdemo"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

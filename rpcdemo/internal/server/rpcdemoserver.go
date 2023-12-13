@@ -8,7 +8,7 @@ import (
 
 	"rpcdemo/internal/logic"
 	"rpcdemo/internal/svc"
-	"rpcdemo/pb/rpcdemo"
+	"rpcdemo/rpcdemo"
 )
 
 type RpcdemoServer struct {
