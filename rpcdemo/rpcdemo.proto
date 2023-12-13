@@ -9,6 +9,7 @@ message Request {
 
 message Response {
   string pong = 1;
+  string message = 2;
 }
 
 service Rpcdemo {
