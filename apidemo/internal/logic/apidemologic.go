@@ -2,7 +2,7 @@ package logic
 
 import (
 	"context"
-	"github.com/178441367/gozerodemo1/rpcdemo/rpcdemo"
+	"github.com/178441367/gozerodemo1/rpcdemo/pb/rpcdemo"
 
 	"apidemo/internal/svc"
 	"apidemo/internal/types"
@@ -31,7 +31,7 @@ func (l *ApidemoLogic) Apidemo(req *types.Request) (resp *types.Response, err er
 		return nil, err
 	}
 	resp = &types.Response{
-		Message: res.Pong + res,
+		Message: res.Pong,
 	}
 	return
 }

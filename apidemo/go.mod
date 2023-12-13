@@ -5,7 +5,6 @@ go 1.21.4
 require github.com/zeromicro/go-zero v1.6.0
 
 require (
-	github.com/178441367/gozerodemo1/rpcdemo v0.0.0-20231211070346-914ba9c31986 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
