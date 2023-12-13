@@ -2,8 +2,11 @@ package logic
 
 import (
 	"context"
-	"github.com/178441367/gozerodemo1/apidemo/internal/svc"
-	"github.com/178441367/gozerodemo1/apidemo/internal/types"
+	"github.com/178441367/gozerodemo1/rpcdemo/rpcdemo"
+
+	"apidemo/internal/svc"
+	"apidemo/internal/types"
+
 	"github.com/zeromicro/go-zero/core/logx"
 )
 
@@ -23,6 +26,12 @@ func NewApidemoLogic(ctx context.Context, svcCtx *svc.ServiceContext) *ApidemoLo
 
 func (l *ApidemoLogic) Apidemo(req *types.Request) (resp *types.Response, err error) {
 	// todo: add your logic here and delete this line
-
+	res, err := l.svcCtx.RpcClient.Ping(l.ctx, &rpcdemo.Request{Ping: req.Name})
+	if err != nil {
+		return nil, err
+	}
+	resp = &types.Response{
+		Message: res.Pong,
+	}
 	return
 }
